@@ -9,7 +9,7 @@
     "broken": "mocha ./test/brokenSauce.js",
     "bonus": "mocha ./test/bonus.js",
     "oddEven": "mocha ./test/bonus.js -g 'odd even'",
-    "handling": "mocha ./test/bonus.js -g 'exception handling'"  
+    "handling": "mocha ./test/bonus.js -g 'exception handling'"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,13 @@
   "devDependencies": {
     "mocha": "^9.0.0",
     "saucelabs": "^5.1.0",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.1.1"
   },
   "mocha": {
     "timeout": 60000
+  },
+  "dependencies": {
+    "saucectl": "^0.94.0",
+    "webdriverio": "^7.19.5"
   }
 }
